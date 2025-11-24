@@ -1,0 +1,64 @@
+.abouttext{
+    margin-top: 120px;
+    margin-bottom: 30px;
+    background: white;
+    min-height:500px;
+    padding: 70px;
+    border-radius: 50px;
+}
+
+.emoji{
+    text-align: end;
+}
+
+.butter{
+    width: 100%;
+}
+
+.back{
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: #5577a4;
+    border: none;
+    border-radius: 10px;
+}
+
+.back:hover{
+     background-color: #9aa9df;
+}
+
+@media(max-width:1024px){
+    .abouttext{
+        margin-top: 330px;
+    }
+}
+
+@media(max-width:768px){
+    .abouttext{
+        margin-top: 420px;
+    }
+}
+
+@media(max-width:580px){
+    .abouttext{
+        margin-top: 500px;
+    }
+} 
+
+@media(max-width:475px){
+    .abouttext{
+        margin-top:650px;
+    }
+} 
+@media(max-width:400px){
+    .abouttext{
+        margin-top: 780px;
+    }
+} 
+
+@media(max-width:320px){
+    .abouttext{
+        margin-top: 1000px;
+    }
+} 

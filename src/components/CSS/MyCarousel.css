@@ -1,0 +1,22 @@
+.carousel-item {
+  height: 100px; 
+  position: relative;
+}
+
+.carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 250px;
+  height:100px;
+
+  object-fit: cover;   /* prevents zoom/shrink */
+  object-position: center;
+
+  transform: none !important;
+}
+
+.carousel-inner {
+  height: 400px; /* match the same height */
+}

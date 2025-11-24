@@ -1,0 +1,27 @@
+.qucard{
+    margin-top: 1250px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:80px;
+    flex-wrap: wrap;
+}
+
+@media(max-width:1024px){
+    .qucard{
+        margin-top: 2200px;
+    }
+}
+
+@media(max-width:880px){
+    .qucard{
+        margin-top: 4600px;
+    }
+}
+
+@media(max-width:424px){
+    .qucard{
+        margin-left: 10px;
+    }
+}

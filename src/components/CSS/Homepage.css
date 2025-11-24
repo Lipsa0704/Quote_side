@@ -1,0 +1,40 @@
+body {
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.quotecard {
+    margin-top: 1150px;
+    min-height: 100vh;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+@media(max-width:1024px){
+    .quotecard {
+    margin-top: 4400px;
+    }
+}
+
+@media(max-width:500px){
+    .quotecard {
+    margin-left:60px;
+    }
+}
+
+@media(max-width:375px){
+    .quotecard {
+    margin-left:130px;
+    }
+}
+
