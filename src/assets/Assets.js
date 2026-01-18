@@ -5,7 +5,7 @@ import carousel3 from './images/image copy 7.png'
 import carousel4 from './images/image copy 8.png'
 import carousel5 from './images/image copy 9.png'
 import logo from './images/logo.png'
-import wallpaper from './images/wallpaper.png'
+import wallpaper from './images/Wallpaper.png'
 
 
 const images= {
@@ -16,7 +16,7 @@ const images= {
     carousel4,
     carousel5,
     logo,
-    wallpaper
+    wallpaper,
 }
 
 export default images

@@ -64,8 +64,8 @@ function App() {
         <Route path="/travel" element={<Travel />} />
         <Route path="/wisdom" element={<Wisdom />} />
 
-        <Route path="/footer" element={<Footer/>} />
-        <Route path="/aboutus" element={<Aboutus/>} />
+        <Route path="/footer" element={<Footer />} />
+        <Route path="/aboutus" element={<Aboutus />} />
       </Routes>
     </>
   )

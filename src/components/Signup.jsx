@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./CSS/SignUp.css"; 
+import "./CSS/SignUp.css";
 import images from '../assets/Assets';
 
 const SignUp = () => {
@@ -38,7 +38,6 @@ const SignUp = () => {
     setSuccess("Sign up successful!");
     setFormData({ name: "", email: "", password: "", confirmPassword: "" });
 
-    // Navigate after successful signup
     navigate('/homepage');
   };
 
